@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Sahlgrenska sjukhus</title>
+</head>
+
+<body>
+
+    <div class="page-header-container">
+        <div class="website-title">
+            <h1>Sahlgrenska sjukhus</h1>
+        </div>
+
+    </div>
+
+
+
+    <div class="page-login-container">
+
+        <form class="login-form" action="userpage.html" method="GET" name="form" onsubmit="return validated()">
+
+            <div class="font">Login</div>
+
+            <input autocomplete="off" type="text" name="user">
+            <div id="user_error">Please enter your username</div>
+
+            <div class="font font2">Password</div>
+            <input type="password" name="password">
+            <div id="pass_error">Please enter your password</div>
+
+            <button type="submit">Login</button>
+
+        </form>
+    </div>
+
+
+
+    <div class="page-footer-container">
+
+        <article>
+            <h3>Menu</h3>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Work for us</a></li>
+                <li><a href="#">Press</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </article>
+        <article>
+            <h3>Social Media</h3>
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Github</a></li>
+            </ul>
+        </article>
+        <article>
+            <h3>Adress</h3>
+            <ul>
+                <li>Sahlgrenska sjukhus</li>
+                <li>Hospitalgatan 13 </li>
+                <li>133 37, Ajont</li>
+            </ul>
+        </article>
+
+
+        <div class="page-footer-map-container"></div>
+
+    </div>
+    <script src="/js/valid.js"></script>
+</body>
+
+</html>
